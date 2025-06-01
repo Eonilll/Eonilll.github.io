@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Employee Registration Form</title>
+  <link rel="stylesheet" href="external_registration.css" />
+</head>
+<body>
+  <h2>Employee Registration Form</h2>
+
+  <form>
+
+    Full Name:<br />
+    <input type="text" name="fullname" required /><br /><br />
+
+    Date of Birth:<br />
+    <input type="date" name="dob" required /><br /><br />
+
+    Gender:<br />
+    <input type="radio" name="gender" value="Male" required /> Male
+    <input type="radio" name="gender" value="Female" /> Female
+    <input type="radio" name="gender" value="Other" /> Other<br /><br />
+
+    Email:<br />
+    <input type="email" name="email" required /><br /><br />
+
+    Contact Number:<br />
+    <input type="text" name="contact" required /><br /><br />
+
+    Address:<br />
+    <textarea name="address" rows="3" cols="30" required></textarea><br /><br />
+
+    Job Title:<br />
+    <input type="text" name="jobtitle" required /><br /><br />
+
+    Department:<br />
+    <select name="department" required>
+      <option value="">Select</option>
+      <option>Human Resources</option>
+      <option>Finance</option>
+      <option>Engineering</option>
+      <option>Marketing</option>
+      <option>Sales</option>
+    </select><br /><br />
+
+    Start Date:<br />
+    <input type="date" name="startdate" required /><br /><br />
+
+    Employee ID:<br />
+    <input type="text" name="employeeid" required /><br /><br />
+
+    Emergency Contact Name:<br />
+    <input type="text" name="emergencyname" required /><br /><br />
+
+    Emergency Contact Number:<br />
+    <input type="text" name="emergencynumber" required /><br /><br />
+
+    Password:<br />
+    <input type="password" name="password" required /><br /><br />
+
+    Confirm Password:<br />
+    <input type="password" name="confirmpassword" required /><br /><br />
+
+    <input type="checkbox" name="terms" required /> I agree to the Terms & Conditions<br /><br />
+
+    <input type="submit" value="Register" />
+
+  </form>
+</body>
+</html>
